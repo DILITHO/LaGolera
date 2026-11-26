@@ -9,15 +9,14 @@ from pathlib import Path
 # ============ CONFIGURA AQUÍ ============
 SITE_NAME = "LaGolera"
 SITE_URL = "https://dilitho.github.io/LaGolera"      # cámbialo por tu dominio cuando lo compres
-CONTACT_EMAIL = "miakalifahud007@gmail.com"
+CONTACT_EMAIL = "menu54186@gmail.com"
 MAX_NEWS = 60                                # noticias en portada
 SUMMARY_CHARS = 220                          # extracto corto (no copiamos artículos)
 FEEDS = [  # (nombre de la fuente, URL del RSS). Si alguna falla, se ignora.
-    ("Marca", "https://e00-marca.uecdn.es/rss/futbol/primera-division.xml"),
-    ("AS", "https://as.com/rss/tags/ultimas_noticias.xml"),
+    ("Marca", "https://e00-marca.uecdn.es/rss/futbol.xml"),
+    ("AS", "https://feeds.as.com/mrss-s/pages/as/site/as.com/section/futbol/portada/"),
     ("Mundo Deportivo", "https://www.mundodeportivo.com/feed/rss/futbol"),
     ("Sport", "https://www.sport.es/es/rss/futbol/rss.xml"),
-    ("BBC Sport", "https://feeds.bbci.co.uk/sport/football/rss.xml"),
 ]
 # ========================================
 
