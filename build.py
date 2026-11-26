@@ -9,7 +9,7 @@ from pathlib import Path
 # ============ CONFIGURA AQUÍ ============
 SITE_NAME = "LaGolera"
 SITE_URL = "https://lagolera.pages.dev"      # cámbialo por tu dominio cuando lo compres
-CONTACT_EMAIL = "contacto@tudominio.com"
+CONTACT_EMAIL = "miakalifahud007@gmail.com"
 MAX_NEWS = 60                                # noticias en portada
 SUMMARY_CHARS = 220                          # extracto corto (no copiamos artículos)
 FEEDS = [  # (nombre de la fuente, URL del RSS). Si alguna falla, se ignora.
