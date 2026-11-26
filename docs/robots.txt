@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lagolera.pages.dev/sitemap.xml
