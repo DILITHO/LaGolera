@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://dilitho.github.io/LaGolera/sitemap.xml
+Sitemap: https://lagolera.github.io/sitemap.xml
