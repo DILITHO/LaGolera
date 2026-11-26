@@ -8,7 +8,7 @@ from pathlib import Path
 
 # ============ CONFIGURA AQUÍ ============
 SITE_NAME = "LaGolera"
-SITE_URL = "https://dilitho.github.io/LaGolera"      # cámbialo por tu dominio cuando lo compres
+SITE_URL = "https://lagolera.github.io"      # cámbialo por tu dominio cuando lo compres
 CONTACT_EMAIL = "menu54186@gmail.com"
 MAX_NEWS = 60                                # noticias en portada
 SUMMARY_CHARS = 220                          # extracto corto (no copiamos artículos)
