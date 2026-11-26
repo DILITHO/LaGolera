@@ -8,7 +8,7 @@ from pathlib import Path
 
 # ============ CONFIGURA AQUÍ ============
 SITE_NAME = "LaGolera"
-SITE_URL = "https://lagolera.pages.dev"      # cámbialo por tu dominio cuando lo compres
+SITE_URL = "https://dilitho.github.io/LaGolera"      # cámbialo por tu dominio cuando lo compres
 CONTACT_EMAIL = "miakalifahud007@gmail.com"
 MAX_NEWS = 60                                # noticias en portada
 SUMMARY_CHARS = 220                          # extracto corto (no copiamos artículos)
@@ -116,11 +116,11 @@ def shell(title, body, desc="Noticias de fútbol al minuto: LaLiga, Champions y 
 <style>{CSS}</style>
 {ad("head.html")}
 </head><body>
-<header><div class="wrap bar"><a class="logo" href="/"><i></i>{SITE_NAME}</a>
-<nav><a href="/">Portada</a><a href="/sobre-nosotros.html">Sobre nosotros</a><a href="/contacto.html">Contacto</a></nav></div></header>
+<header><div class="wrap bar"><a class="logo" href="./"><i></i>{SITE_NAME}</a>
+<nav><a href="./">Portada</a><a href="sobre-nosotros.html">Sobre nosotros</a><a href="contacto.html">Contacto</a></nav></div></header>
 {body}
-<footer><div class="wrap"><a href="/sobre-nosotros.html">Sobre nosotros</a><a href="/contacto.html">Contacto</a>
-<a href="/privacidad.html">Privacidad</a><a href="/cookies.html">Cookies</a>
+<footer><div class="wrap"><a href="sobre-nosotros.html">Sobre nosotros</a><a href="contacto.html">Contacto</a>
+<a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a>
 <p>© {datetime.now().year} {SITE_NAME}. Agregamos titulares y extractos de medios deportivos con enlace a la fuente original; los derechos pertenecen a sus autores.</p></div></footer>
 {ad("body-end.html")}
 </body></html>"""
